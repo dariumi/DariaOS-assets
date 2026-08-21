@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "wallpapers": [
+    {
+      "id": "neon-orbs",
+      "name": "Neon Orbs",
+      "author": "DariaOS team",
+      "preview": "previews/neon-orbs.jpg",
+      "file": "wallpapers/neon-orbs.jpg"
+    },
+    {
+      "id": "midnight-drift",
+      "name": "Midnight Drift",
+      "author": "DariaOS team",
+      "preview": "previews/midnight-drift.jpg",
+      "file": "wallpapers/midnight-drift.jpg"
+    },
+    {
+      "id": "ember-gradient",
+      "name": "Ember Gradient",
+      "author": "DariaOS team",
+      "preview": "previews/ember-gradient.jpg",
+      "file": "wallpapers/ember-gradient.jpg"
+    },
+    {
+      "id": "forest-glow",
+      "name": "Forest Glow",
+      "author": "DariaOS team",
+      "preview": "previews/forest-glow.jpg",
+      "file": "wallpapers/forest-glow.jpg"
+    }
+  ],
+  "themes": [
+    {
+      "id": "sakura",
+      "name": "Сакура",
+      "author": "DariaOS team",
+      "preview_colors": ["#ff9ec7", "#ffd1e6"],
+      "vars": {
+        "--bg-1": "#160c14",
+        "--bg-2": "#241021",
+        "--accent": "#ff9ec7",
+        "--accent-2": "#ffd1e6"
+      }
+    },
+    {
+      "id": "ocean",
+      "name": "Океан",
+      "author": "DariaOS team",
+      "preview_colors": ["#38e0ff", "#2662ff"],
+      "vars": {
+        "--bg-1": "#050b14",
+        "--bg-2": "#0a1a2e",
+        "--accent": "#38e0ff",
+        "--accent-2": "#2662ff"
+      }
+    },
+    {
+      "id": "forest",
+      "name": "Лес",
+      "author": "DariaOS team",
+      "preview_colors": ["#38e0a0", "#1e8a5a"],
+      "vars": {
+        "--bg-1": "#04140f",
+        "--bg-2": "#0a241a",
+        "--accent": "#38e0a0",
+        "--accent-2": "#1e8a5a"
+      }
+    }
+  ],
+  "plugins": []
+}
