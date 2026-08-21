@@ -68,5 +68,26 @@
       }
     }
   ],
-  "plugins": []
+  "plugins": [
+    {
+      "id": "tabs-to-spaces",
+      "name": "Tabs → Spaces",
+      "version": "1.0.0",
+      "author": "DariaOS team",
+      "description": "Автоматически заменяет табы на два пробела при сохранении файлов.",
+      "hooks": ["files:before-write"],
+      "file": "plugins/tabs-to-spaces.zip",
+      "sha256": "9ad0635ff8ac64448ecba19484ba4f1a0e1679c5d5204788d5e5f667d8663d75"
+    },
+    {
+      "id": "trim-trailing-whitespace",
+      "name": "Trim Trailing Whitespace",
+      "version": "1.0.0",
+      "author": "DariaOS team",
+      "description": "Убирает пробелы и табы в конце строк при сохранении файлов.",
+      "hooks": ["files:before-write"],
+      "file": "plugins/trim-trailing-whitespace.zip",
+      "sha256": "5582d4a73b664b760a49b46ee992977dd56b6854dbf9574ec776b2337b2064bd"
+    }
+  ]
 }
