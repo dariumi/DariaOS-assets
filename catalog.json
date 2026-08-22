@@ -88,6 +88,36 @@
       "hooks": ["files:before-write"],
       "file": "plugins/trim-trailing-whitespace.zip",
       "sha256": "5582d4a73b664b760a49b46ee992977dd56b6854dbf9574ec776b2337b2064bd"
+    },
+    {
+      "id": "reply-length-cap",
+      "name": "Reply Length Cap",
+      "version": "1.0.0",
+      "author": "DariaOS team",
+      "description": "Обрезает слишком длинный ответ Даши до безопасной длины вместо стены текста.",
+      "hooks": ["chat:after-reply"],
+      "file": "plugins/reply-length-cap.zip",
+      "sha256": "e19e1d0a8f336d6ba4bdba955f7a5de8194f4d22b1181fa7d0ab128c79f56edc"
+    },
+    {
+      "id": "input-length-cap",
+      "name": "Input Length Cap",
+      "version": "1.0.0",
+      "author": "DariaOS team",
+      "description": "Обрезает слишком длинное вставленное сообщение, прежде чем оно займёт всё окно контекста модели.",
+      "hooks": ["chat:before-reply"],
+      "file": "plugins/input-length-cap.zip",
+      "sha256": "ce9470c75238ccba91fba17cb2a48d242f9813654981a0a1e07aa2ed7cd6fc35"
+    },
+    {
+      "id": "profanity-filter",
+      "name": "Profanity Filter",
+      "version": "1.0.0",
+      "author": "DariaOS team",
+      "description": "Маскирует слова из своего списка в ответах Даши (список можно расширить в файле плагина).",
+      "hooks": ["chat:after-reply"],
+      "file": "plugins/profanity-filter.zip",
+      "sha256": "26264d9b09be0b80ebaeda2935227585ef01d45513be8043602bfb5ea4d957f4"
     }
   ]
 }
